@@ -1,14 +1,15 @@
-# ConvVAE
+# Variational Autoencoder using PyTorch
 
-The module defined in this repository provides a general implementation of a Variational Autoencoder that can be used to process and generate 2 dimensional images. 
+### Introduction
+This repository provides an two implementations of variational autoencoders:
 
-Using this general module will involve defining the following model settings:
-- input dimensions
-- latent dimensions
-- convolutional parameters:
-  - number of cnn layers
-  - stride
-  - padding
-- Activation function (during Convolution and output)
-- Reconstruction Loss
-- 
+1) `VAE`: Uses standard fully-connected neuron layers. 
+2) `ConvVAE`: Uses convolutional encoding and decoding layers to capture spatial information. 
+
+This repository also showcases an application of the variational autoencoder using the famous EMNIST dataset.
+
+1) `VAE_MLP.ipynb` trains the standard MLP VAE.
+2) `VAE_CNN.ipynb` trains the CNN VAE.
+
+
+### Results

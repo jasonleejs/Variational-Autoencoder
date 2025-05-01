@@ -1,0 +1,8 @@
+# Requirements
+ipykernel>=6.29.5
+ipython>=8.18.1
+matplotlib>=3.9.4
+numpy>=2.0.2
+torch>=2.7.0
+torchvision>=0.22.0
+tqdm>=4.67.1
